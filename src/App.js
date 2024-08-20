@@ -1,23 +1,30 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import BaiTapChonXe from './BaiTapChonXe/BaiTapChonXe';
+import BaiTapRenderWithMap from './BaiTapRenderWithMap/BaiTapRenderWithMap';
+import DataBinding from './DataBinding/DataBinding';
+import DataBindingRFC from './DataBinding/DataBindingRFC';
+import HandleEvent from './HandleEvent/HandleEvent';
+import RenderingCondition from './RenderingCondition/RenderingCondition';
+import RenderWithLoop from './RenderWithLoop/RenderWithLoop';
+import StateDemo from './State/StateDemo';
+import Styling from './Styling/Styling';
+// import BaiTapChiaLayout from './component/BaiTapChiaLayout/BaiTapChiaLayout';
+// import Home from './component/BaiTapChiaLayout/Home';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Home /> */}
+      {/* <DataBinding />
+      <DataBindingRFC /> */}
+      {/* <HandleEvent/> */}
+      {/* <RenderingCondition /> */}
+      {/* <StateDemo/> */}
+      {/* <Styling/> */}
+      {/* <BaiTapChonXe/> */}
+      {/* <RenderWithLoop/> */}
+      <BaiTapRenderWithMap/>
     </div>
   );
 }
