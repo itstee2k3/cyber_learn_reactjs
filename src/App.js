@@ -2,6 +2,7 @@
 import './App.css';
 import BaiTapChonXe from './BaiTapChonXe/BaiTapChonXe';
 import BaiTapRenderWithMap from './BaiTapRenderWithMap/BaiTapRenderWithMap';
+import BaiTapThuKinh from './BaiTapThuKinh/BaiTapThuKinh';
 import DataBinding from './DataBinding/DataBinding';
 import DataBindingRFC from './DataBinding/DataBindingRFC';
 import HandleEvent from './HandleEvent/HandleEvent';
@@ -24,7 +25,9 @@ function App() {
       {/* <Styling/> */}
       {/* <BaiTapChonXe/> */}
       {/* <RenderWithLoop/> */}
-      <BaiTapRenderWithMap/>
+      {/* <BaiTapRenderWithMap/> */}
+      {/* <Test/> */}
+      <BaiTapThuKinh/>
     </div>
   );
 }
